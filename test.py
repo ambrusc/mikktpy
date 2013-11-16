@@ -65,11 +65,11 @@ ret = mk.compute_tri_tangents(test_tris)
 
 # Validate
 if len(ret) != len(expected_result):
-  print "ERROR: length mismatch"
+  print("ERROR: length mismatch")
 if ret == expected_result:
-  print "All good. Exact result obtained."
+  print("All good. Exact result obtained.")
 else:
   err = 0
   for i in xrange(len(ret)):
     err = max(err, abs(expected_result[i] - ret[i]))
-  print "Inexact result: max error is %s" % err
+  print("Inexact result: max error is %s" % err)

@@ -1,11 +1,11 @@
 mikktpy
 =======
 
-A simple Python 2.7 wrapper for mikktspace. Only supports unindexed triangles!
+A simple Python wrapper for mikktspace. Only supports unindexed triangles!
 
 (http://wiki.blender.org/index.php/Dev:Shading/Tangent_Space_Normal_Maps)
 
-Prebuilt Binary
+Prebuilt Binaries (for both 2.7 and 3.3)
 -----
 (https://www.dropbox.com/s/qgxtcfrwfw6rb3g/mikktpy.zip)
 
