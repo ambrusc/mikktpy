@@ -1,0 +1,6 @@
+
+build/
+*.pyc
+*.pyd
+mikktpy_wrap.*
+mikktspace.py
