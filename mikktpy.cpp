@@ -136,7 +136,7 @@ vector<float> compute_tri_tangents(const vector<float> &v)
   mikktInterface.m_setTSpace = setTSpace;
 
   TriTangentState s = { v };
-  s.ret.resize(6 * components_per_tangent);
+  s.ret.resize(components_per_tangent * v.size() / components_per_vert);
 
   SMikkTSpaceContext mikktContext;
   mikktContext.m_pInterface = &mikktInterface;
